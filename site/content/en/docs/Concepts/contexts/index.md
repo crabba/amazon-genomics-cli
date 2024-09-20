@@ -131,7 +131,7 @@ However note that while these instances are given a security group that will blo
 
 ## Context Commands
 
-A full reference of context commands is [here]( {{< relref "../../Reference/agc_context/index.md" >}} )
+A full reference of context commands is [here]( {{< relref "../../Reference/agc_context.md" >}} )
 
 ### `describe`
 

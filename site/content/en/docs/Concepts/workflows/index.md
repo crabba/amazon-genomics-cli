@@ -116,7 +116,7 @@ The workflow engine decides how the workflow is to be run and the context provid
 
 ## Commands
 
-A full reference of workflow commands is available [here]( {{< relref "../../Reference/agc_workflow/index.md" >}} )
+A full reference of workflow commands is available [here]( {{< relref "../../Reference/agc_workflow.md" >}} )
 
 ### `run`
 

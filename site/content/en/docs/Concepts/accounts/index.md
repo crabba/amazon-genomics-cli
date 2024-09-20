@@ -43,7 +43,7 @@ for networking and storage this may be the easiest way to activate Amazon Genomi
 
 ## Account Commands
 
-A full reference of the account commands is [here]( {{< relref "../../Reference/agc_account/index.md" >}} )
+A full reference of the account commands is [here]( {{< relref "../../Reference/agc_account.md" >}} )
 
 ### `activate`
 

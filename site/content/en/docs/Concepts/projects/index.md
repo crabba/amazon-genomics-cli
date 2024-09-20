@@ -110,7 +110,7 @@ data:
 
 ## Commands
 
-A full reference of project commands are available [here]( {{< relref "../../Reference/agc_project/index.md" >}} )
+A full reference of project commands are available [here]( {{< relref "../../Reference/agc_project.md" >}} )
 
 ### `init`
 

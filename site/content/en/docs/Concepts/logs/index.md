@@ -40,7 +40,7 @@ blocked or incorrectly routed in the API Gateway. The API Gateway access logs ma
 
 ## Commands
 
-A full reference of Amazon Genomics CLI `logs` commands are available [here]( {{< relref "../../Reference/agc_logs/index.md" >}} )
+A full reference of Amazon Genomics CLI `logs` commands are available [here]( {{< relref "../../Reference/agc_logs.md" >}} )
 
 ## Costs
 
