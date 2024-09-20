@@ -9,7 +9,6 @@ venv
 coverage.out
 vendor
 /docs/
-/site/content/en/docs/Reference/agc*
 /dist/
 *.zip
 site/.hugo_build.lock
