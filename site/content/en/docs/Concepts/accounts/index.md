@@ -25,7 +25,7 @@ variable to `eu-west-1` then that region will be used by Amazon Genomics CLI for
 ## Shared Infrastructure
 
 When a region is first activated for Amazon Genomics CLI, some basic infrastructure is deployed including a 
-[VPC](https://docs.aws.amazon.com/vpc/latest/userguide/index.html), which is used for the compute infrastructure that will be deployed in a [context]( {{< relref "../contexts" >}} ), 
+[VPC](https://docs.aws.amazon.com/vpc/latest/userguide/index.html), which is used for the compute infrastructure that will be deployed in a [context]( {{< relref "../contexts/index.md" >}} ), 
 and an [S3](https://docs.aws.amazon.com/AmazonS3/latest/userguide/index.html) bucket which will be used to store workflow intermediates and results. This
 core infrastructure will be shared by all Amazon Genomics CLI users and projects in that region.
 
@@ -43,7 +43,7 @@ for networking and storage this may be the easiest way to activate Amazon Genomi
 
 ## Account Commands
 
-A full reference of the account commands is [here]( {{< relref "../../Reference/agc_account" >}} )
+A full reference of the account commands is [here]( {{< relref "../../Reference/agc_account/index.md" >}} )
 
 ### `activate`
 
