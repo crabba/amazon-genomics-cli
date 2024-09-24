@@ -25,14 +25,20 @@ Running Amazon Genomics CLI on Windows has not been tested, but it should run in
 * Install node.js
 
 ```
-curl -fsSL https://deb.nodesource.com/setup_15.x | sudo -E bash -
+# 240923 curl -fsSL https://deb.nodesource.com/setup_15.x | sudo -E bash -
+curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash -
 sudo apt-get install -y nodejs
 ```
 
 * Install and configure AWS CLI
 
 ```
-sudo apt install awscli
+# 240923 sudo apt install awscli
+# https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
+sudo apt install -y unzip
+curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+unzip awscliv2.zip
+sudo ./aws/install
 aws configure
 # ... set access key ID, secret access key, and region
 ```

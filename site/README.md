@@ -35,7 +35,7 @@ Alternatively, you can:
 
 ```bash
 $ cd site/
-$ hugo server -D
+$ hugo server --bind=0.0.0.0 -D
 ```
 
 Then you should be able to access the website at [http://localhost:1313/](http://localhost:1313/). With the `-D` flag

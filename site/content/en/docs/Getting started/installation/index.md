@@ -20,11 +20,13 @@ The latest nightly build can be accessed here: `s3://healthai-public-assets-us-e
 You can download the nightly by running the following:
 
 ```shell
-aws s3api get-object --bucket healthai-public-assets-us-east-1 --key amazon-genomics-cli/nightly-build/amazon-genomics-cli.zip amazon-genomics-cli.zip
+# 240923 aws s3api get-object --bucket healthai-public-assets-us-east-1 --key amazon-genomics-cli/nightly-build/amazon-genomics-cli.zip amazon-genomics-cli.zip
+aws s3 cp s3://healthai-public-assets-us-east-1/amazon-genomics-cli/nightly-build/amazon-genomics-cli.zip .
 ```
 
 ```shell
-unzip amazon-genomics-cli-<version>.zip
+# 240923 unzip amazon-genomics-cli-<version>.zip
+unzip amazon-genomics-cli.zip
 cd amazon-genomics-cli/ 
 ./install.sh
 ```
